@@ -3,7 +3,7 @@ require 'sinatra'
 
 class MyWebApp < Sinatra::Base
 	get '/' do 
-		"Welcome to my webapp!"
+		send_file 'views/index.html'
 
 	end
 end
