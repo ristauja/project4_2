@@ -1,5 +1,10 @@
 body {background: #3498db;
 		font-family: arial;
-		font: white;
+		color: white;
+
+}
+
+img {
+	height: 500px;
 
 }
