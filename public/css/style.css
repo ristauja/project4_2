@@ -8,3 +8,7 @@ img {
 	height: 500px;
 
 }
+
+.col-md-2 {
+	text-align: right;
+}
