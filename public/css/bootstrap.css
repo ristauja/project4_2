@@ -8,6 +8,19 @@
  * Designed and built with all the love in the world by @mdo and @fat.
  */
 
+.centered {
+   text-align: center;
+   font-size: 0;
+}
+.centered > div {
+   float: none;
+   display: inline-block;
+   text-align: left;
+   font-size: 13px;
+}
+
+
+
 .clearfix {
   *zoom: 1;
 }
@@ -150,7 +163,7 @@ input[type="submit"],
 input[type="radio"],
 input[type="checkbox"] {
   cursor: pointer;
-}
+
 
 input[type="search"] {
   -webkit-box-sizing: content-box;
